@@ -8,8 +8,10 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) {(a + b)
-    console.log('The sum of ' + a + ' and ' + b + ' is ' + sum)
+function sum(a, b) {
+    let theSum = a + b;
+    let message = 'The sum of ' + a + ' and ' + b + ' is ' + theSum + '.';
+    return [theSum, message];    
 }
 
 // Here is the test for sum(); uncomment it to run it
